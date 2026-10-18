@@ -1,0 +1,444 @@
+[
+  {
+    "id": "rach_v2.0",
+    "name": "РАХМАНИНОВ",
+    "era": "РОМАНТИЗМ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.21,
+    "delta": 0.78,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.95,
+      "tension": 0.25,
+      "density": 0.6,
+      "gravitation": 0.9
+    },
+    "nadi": {
+      "ida": "Basso Profondo (Исон)",
+      "pingala": "Знаменный распев",
+      "sushumna": "Соборность (Унисон)"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "A Cappella Хор",
+      "reverb": "Собор 5.5s"
+    },
+    "color": "bg-orange-950/40 border-orange-500/40 text-orange-200"
+  },
+  {
+    "id": "chesnokov_v1.0",
+    "name": "ЧЕСНОКОВ",
+    "era": "РОМАНТИЗМ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.18,
+    "delta": 0.71,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.9,
+      "tension": 0.2,
+      "density": 0.55,
+      "gravitation": 0.95
+    },
+    "nadi": {
+      "ida": "Basso profondo (глибокий бас)",
+      "pingala": "Хорова мелодія (лірична)",
+      "sushumna": "Молитовний спокій"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Мішаний хор a cappella",
+      "reverb": "Храмова акустика (5.0с)"
+    },
+    "color": "bg-amber-950/40 border-amber-600/40 text-amber-200"
+  },
+  {
+    "id": "bort_v1.2",
+    "name": "БОРТНЯНСЬКИЙ",
+    "era": "КЛАССИКА",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.12,
+    "delta": 0.68,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.92,
+      "tension": 0.12,
+      "density": 0.45,
+      "gravitation": 0.88
+    },
+    "nadi": {
+      "ida": "Класичний бас (cantus firmus)",
+      "pingala": "Хорова кантилена",
+      "sushumna": "Соборний резонанс"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Мішаний хор a cappella",
+      "reverb": "Храмова акустика (4.2с)"
+    },
+    "color": "bg-yellow-950/40 border-yellow-500/40 text-yellow-100"
+  },
+  {
+    "id": "arkh_v1.1",
+    "name": "АРХАНГЕЛЬСЬКИЙ",
+    "era": "РОМАНТИЗМ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.15,
+    "delta": 0.65,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.89,
+      "tension": 0.18,
+      "density": 0.48,
+      "gravitation": 0.91
+    },
+    "nadi": {
+      "ida": "М'який бас",
+      "pingala": "Лирический напев",
+      "sushumna": "Молитва"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "A Cappella Choir",
+      "reverb": "Храм"
+    },
+    "color": "bg-stone-800/60 border-stone-500/40 text-stone-200"
+  },
+  {
+    "id": "kuznetsov_v1.0",
+    "name": "КУЗНЕЦОВ",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.17,
+    "delta": 0.7,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.88,
+      "tension": 0.3,
+      "density": 0.5,
+      "gravitation": 0.92
+    },
+    "nadi": {
+      "ida": "Органний пункт",
+      "pingala": "Сучасна мелодика",
+      "sushumna": "Медитативний резонанс"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Хор + орган",
+      "reverb": "Сучасний концертний зал"
+    },
+    "color": "bg-cyan-950/40 border-cyan-500/40 text-cyan-200"
+  },
+  {
+    "id": "grechaninov_v1.0",
+    "name": "ГРЕЧАНІНОВ",
+    "era": "РОМАНТИЗМ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.17,
+    "delta": 0.7,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.88,
+      "tension": 0.3,
+      "density": 0.5,
+      "gravitation": 0.92
+    },
+    "nadi": {
+      "ida": "Драматичний бас",
+      "pingala": "Експресивний розспів",
+      "sushumna": "Катарсис"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Хор + соло",
+      "reverb": "Великий собор"
+    },
+    "color": "bg-purple-950/40 border-purple-500/40 text-purple-200"
+  },
+  {
+    "id": "palest_v1.0",
+    "name": "ПАЛЕСТРИНА",
+    "era": "БАРОККО",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.05,
+    "delta": 0.58,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.96,
+      "tension": 0.12,
+      "density": 0.4,
+      "gravitation": 0.94
+    },
+    "nadi": {
+      "ida": "Полифония",
+      "pingala": "Чистый голос",
+      "sushumna": "Равновесие"
+    },
+    "acoustic": {
+      "freq": 440,
+      "timbre": "Вокал",
+      "reverb": "Базилика 6.0s"
+    },
+    "color": "bg-blue-950/40 border-blue-400/40 text-blue-100"
+  },
+  {
+    "id": "kuku_v2.0",
+    "name": "КУКУЗЕЛЬ",
+    "era": "БАРОККО",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.04,
+    "delta": 0.62,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.92,
+      "tension": 0.18,
+      "density": 0.35,
+      "gravitation": 0.96
+    },
+    "nadi": {
+      "ida": "Визант. Исон",
+      "pingala": "Орнаментика",
+      "sushumna": "Афон"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Соло",
+      "reverb": "Монастырь 5.0s"
+    },
+    "color": "bg-red-950/40 border-red-500/40 text-red-200"
+  },
+  {
+    "id": "bach_v2.1",
+    "name": "BACH",
+    "era": "БАРОККО",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.12,
+    "delta": 0.92,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.98,
+      "tension": 0.4,
+      "density": 0.7,
+      "gravitation": 0.92
+    },
+    "nadi": {
+      "ida": "Continuo",
+      "pingala": "Тема Фуги",
+      "sushumna": "Контрапункт"
+    },
+    "acoustic": {
+      "freq": 256,
+      "timbre": "Орган",
+      "reverb": "Собор 4.5s"
+    },
+    "color": "bg-indigo-950/40 border-indigo-500/40 text-indigo-200"
+  },
+  {
+    "id": "moz_v3.0",
+    "name": "MOZART",
+    "era": "КЛАССИКА",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.08,
+    "delta": 0.85,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.97,
+      "tension": 0.35,
+      "density": 0.55,
+      "gravitation": 0.85
+    },
+    "nadi": {
+      "ida": "Alberti Bass",
+      "pingala": "Мелодия",
+      "sushumna": "Ясность"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Струнные",
+      "reverb": "Зал 2.5s"
+    },
+    "color": "bg-emerald-950/40 border-emerald-500/40 text-emerald-200"
+  },
+  {
+    "id": "glin_v1.5",
+    "name": "ГЛИНКА",
+    "era": "РОМАНТИЗМ",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.16,
+    "delta": 0.69,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.93,
+      "tension": 0.22,
+      "density": 0.52,
+      "gravitation": 0.89
+    },
+    "nadi": {
+      "ida": "Народный бас",
+      "pingala": "Лиризм",
+      "sushumna": "Синтез"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Оркестр",
+      "reverb": "Театр 2.0s"
+    },
+    "color": "bg-teal-950/40 border-teal-500/40 text-teal-200"
+  },
+  {
+    "id": "tchai_v1.2",
+    "name": "ЧАЙКОВСКИЙ",
+    "era": "РОМАНТИЗМ",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.24,
+    "delta": 0.78,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.94,
+      "tension": 0.4,
+      "density": 0.7,
+      "gravitation": 0.92
+    },
+    "nadi": {
+      "ida": "Драма",
+      "pingala": "Элегия",
+      "sushumna": "Кульминация"
+    },
+    "acoustic": {
+      "freq": 440,
+      "timbre": "Оркестр",
+      "reverb": "Зал 3.5s"
+    },
+    "color": "bg-rose-950/40 border-rose-500/40 text-rose-200"
+  },
+  {
+    "id": "martynov_v1.0",
+    "name": "МАРТЫНОВ",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.14,
+    "delta": 0.67,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.88,
+      "tension": 0.15,
+      "density": 0.45,
+      "gravitation": 0.95
+    },
+    "nadi": {
+      "ida": "basso_profundo",
+      "pingala": "tenor",
+      "sushumna": "soprano"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "A cappella choir",
+      "reverb": "Monastery 6.0s"
+    },
+    "color": "bg-zinc-950/40 border-zinc-500/40 text-zinc-200"
+  },
+  {
+    "id": "richter_v1.0",
+    "name": "РИХТЕР",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.21,
+    "delta": 0.67,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.85,
+      "tension": 0.35,
+      "density": 0.5,
+      "gravitation": 0.8
+    },
+    "nadi": {
+      "ida": "bass",
+      "pingala": "tenor",
+      "sushumna": "soprano"
+    },
+    "acoustic": {
+      "freq": 440,
+      "timbre": "Piano / String Quintet",
+      "reverb": "Concert Hall 2.5s"
+    },
+    "color": "bg-slate-950/40 border-slate-500/40 text-slate-200"
+  },
+  {
+    "id": "piazzolla_v1.0",
+    "name": "ПЬЯЦЦОЛЛА",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.32,
+    "delta": 0.71,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.87,
+      "tension": 0.45,
+      "density": 0.65,
+      "gravitation": 0.75
+    },
+    "nadi": {
+      "ida": "baritone",
+      "pingala": "tenor",
+      "sushumna": "alto"
+    },
+    "acoustic": {
+      "freq": 440,
+      "timbre": "Bandoneon / Violin",
+      "reverb": "Club 1.5s"
+    },
+    "color": "bg-red-950/40 border-red-600/40 text-red-200"
+  },
+  {
+    "id": "paart_v1.0",
+    "name": "ПЯРТ",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "САКРАЛЬНОЕ",
+    "tdi": 0.08,
+    "delta": 0.66,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.9,
+      "tension": 0.1,
+      "density": 0.4,
+      "gravitation": 0.98
+    },
+    "nadi": {
+      "ida": "bass",
+      "pingala": "alto",
+      "sushumna": "soprano"
+    },
+    "acoustic": {
+      "freq": 432,
+      "timbre": "Choir / Bells",
+      "reverb": "Cathedral 7.0s"
+    },
+    "color": "bg-sky-950/40 border-sky-500/40 text-sky-200"
+  },
+  {
+    "id": "crumb_v1.0",
+    "name": "КРАМБ",
+    "era": "СОВРЕМЕННАЯ",
+    "type": "КОМПОЗИТОР",
+    "tdi": 0.42,
+    "delta": 0.72,
+    "status": "ГОТОВО",
+    "evrid": {
+      "function": 0.82,
+      "tension": 0.55,
+      "density": 0.75,
+      "gravitation": 0.7
+    },
+    "nadi": {
+      "ida": "contralto",
+      "pingala": "soprano",
+      "sushumna": "mezzo"
+    },
+    "acoustic": {
+      "freq": 440,
+      "timbre": "Prepared Piano",
+      "reverb": "Surreal Space 4.0s"
+    },
+    "color": "bg-fuchsia-950/40 border-fuchsia-500/40 text-fuchsia-200"
+  }
+]

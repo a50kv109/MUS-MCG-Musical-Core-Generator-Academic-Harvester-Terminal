@@ -1,0 +1,5 @@
+{
+  "name": "MCG-V3.0 Terminal/ЯДРА МУЗ",
+  "description": "AAM Musical & Voice Combinator (MCG-V3.0) - Automated terminal for generating musical core Python scripts based on Hodge Core V5.1 architecture.",
+  "requestFramePermissions": []
+}
