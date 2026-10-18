@@ -279,6 +279,13 @@ class CrumbCore:
             "signature": self.signature
         }
 
+    def get_spectral_passport(self):
+        """Розрахунок спектрального паспорта (λ₂, gap, entropy)"""
+        from mcg_analytics import create_triad_engine, SpectralMeasurementEngine
+        profiles, _ = create_triad_engine()
+        profile = next(p for p in profiles if p.id.startswith("crumb"))
+        return SpectralMeasurementEngine.analyze_profile(profile).to_dict()
+
     def generate_example(self):
         return {
             "composer": self.name,

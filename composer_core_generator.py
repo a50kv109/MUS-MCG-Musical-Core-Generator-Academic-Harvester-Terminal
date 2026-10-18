@@ -112,6 +112,21 @@ class ComposerCoreGenerator:
             "signature": self.signature
         }
 
+    def get_spectral_passport(self, composer_name):
+        """Повертає спектральний паспорт ядра (на основі Spectral Tracker)"""
+        from mcg_analytics import create_triad_engine, SpectralMeasurementEngine
+        core = self.get_composer_core(composer_name)
+        profiles, _ = create_triad_engine()
+        profile = next(p for p in profiles if p.id == core["id"] or p.id.startswith(composer_name))
+        return SpectralMeasurementEngine.analyze_profile(profile).to_dict()
+
+    def get_stylistic_interpretation(self, composer_name):
+        """Повертає індивідуальну стилістичну інтерпретацію (Тріадна Архітектура)"""
+        from mcg_analytics import create_triad_engine
+        core = self.get_composer_core(composer_name)
+        _, engine = create_triad_engine()
+        return engine.evaluate_core_alignment(core["id"])
+
 # ==============================================================================
 # API ДЛЯ ПРОЄКТУ 3
 # ==============================================================================
@@ -138,6 +153,16 @@ def get_all_composers_for_project3():
     for composer in get_composer_list():
         result[composer] = generator.export_for_project3(composer)
     return result
+
+def get_composer_spectral_passport(composer_name):
+    """Повертає спектральний паспорт композитора"""
+    generator = ComposerCoreGenerator()
+    return generator.get_spectral_passport(composer_name)
+
+def get_composer_stylistic_interpretation(composer_name):
+    """Повертає інтерпретацію композитора за Тріадною Архітектурою"""
+    generator = ComposerCoreGenerator()
+    return generator.get_stylistic_interpretation(composer_name)
 
 # ==============================================================================
 # ПРИКЛАД ВИКОРИСТАННЯ В ПРОЄКТІ 3
