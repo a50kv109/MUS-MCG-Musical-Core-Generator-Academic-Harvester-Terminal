@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Temporal Analyzer 2",
+  "description": "Deterministic measurement library for temporal data dynamics.temporal-analyzer   Deterministic engineering measurement library for temporal system analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

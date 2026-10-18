@@ -1,0 +1,25 @@
+{
+  "name": "temporal-analyzer",
+  "version": "1.0.0-rc1",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "echo 'Nothing to build'",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "description": "Deterministic engineering measurement library for temporal system analysis.",
+  "keywords": [
+    "engineering",
+    "temporal-analysis",
+    "measurement",
+    "deterministic",
+    "systems-engineering",
+    "state-transitions",
+    "analysis",
+    "toolkit",
+    "library",
+    "eos"
+  ]
+}
